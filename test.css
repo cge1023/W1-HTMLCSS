@@ -1,0 +1,9 @@
+/* CSS 참조 방식 우선순위
+인라인 방식 > 내장 방식 ? 링크 방식 */
+/* 내장 방식 / 링크 방식 나중에 불려지는 것이 적용 */
+
+/* CSS 많이 쓰이는 속성
+- color, background-color
+- font-size, font-weight(100~900), font-family(글꼴), font-style
+- border, width, height
+- margin, padding */
