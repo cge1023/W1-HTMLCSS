@@ -7,3 +7,23 @@
 - font-size, font-weight(100~900), font-family(글꼴), font-style
 - border, width, height
 - margin, padding */
+
+/* CSS 복잡한 속성
+- position
+static : 정적 위치 지정 방식
+relative : 상대 위치 지정 방식
+absolute : 절대 위치 지정 방식
+fixed : 고정 위치 지정 방식 
+
+- transform
+skew : 기울기
+scale : 확대
+rotate : 회전
+translate : 이동
+
+- display
+inline
+block
+inline-block
+flex
+none
