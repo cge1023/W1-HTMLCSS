@@ -1,7 +1,14 @@
 <html>
     <head>
         <style>
+           @font-face {
+                font-family: 'GangwonEdu_OTFBoldA';
+                src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEdu_OTFBoldA.woff') format('woff');
+                font-weight: normal;
+                font-style: normal;
+            }
             * {
+                font-family: 'GangwonEdu_OTFBoldA';
                 color: red;
                 font-size: 30px;
             }
@@ -10,20 +17,71 @@
             }
             #purple { 
                 color: purple;
+                
+            }
+            div ul .orange {
+                font-style: italic;
+                border: 3px dotted orange;
+            }
+            div #purple {
+                font-style: italic;
+                border: 3px dotted purple;
+            }
+            div >.orange {
+                text-decoration: underline;
+                font-style: italic;
+            }
+            span + p {
+                font-weight: bolder;
+                font-size: 50px;
+            }
+            span ~ p {
+                color: purple;
+            }
+            li:hover{
+                font-weight: bolder;
+                font-size: 50px;
+                cursor: pointer;
+            }
+            .orange:active {
+                color: black;
+            }
+            a:visited {
+                color: black;
+            }
+            input:focus {
+                background-color: grey;
+            }
+            .wrap div:nth-child(2) {
+                color: yellow;
+            }
+            .wrap *:nth-child(4) {
+                text-decoration: underline;
+                font-size: 50px;
+            }
+            .wrap span:last-child {
+                color: blue;
             }
         </style>
     </head>
+
     <body>
-        <div>
+        <div class="wrap">
             <ul>
-                <li>사과</li>
-                <li>딸기</li>
-                <li class="orange">오렌지</li>
+                <li>사과🍎</li>
+                <li>딸기🍓</li>
+                <li class="orange">오렌지🍊</li>
             </ul>
-            <div class="orange">당근</div>
-            <p>토마토</p>
-            <span class="orange">오렌지</span>
-            <p id="purple" class="orange">포도</p>
+            <div>레몬🍋</div>
+            <div class="orange">당근🥕</div>
+            <p>토마토🍅</p>
+            <span class="orange">오렌지🍊</span>
+            <p id="purple" class="orange">포도🍇</p>
+            <p>블루베리🫐</p>
+
+            <a href="https://www.kurly.com/shop/main/index.php" target="_blank">🍎🫐🍊🍓🍇🍅쇼핑하러가기</a><br>
+
+            <span>제일 좋아하는 과일은? :<input type="text"></span>
         </div>
     </body>
 </html>
