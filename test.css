@@ -25,5 +25,5 @@ translate : 이동
 inline
 block
 inline-block
-flex
+flex : 자식태그들이 inline 속성을 가지게함
 none

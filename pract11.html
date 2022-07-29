@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <style>
+            .div1 {
+                position: relative;
+                width: 100px;
+                height: 100px;
+                background-color: lightpink;
+                border-radius: 50px;
+                animation-name: test;
+                animation-duration: 3s;
+                animation-iteration-count: 6;
+            }
+            @keyframes test {
+                0% {top: 0; left: 0;}
+                25%{top: 0; left: 86%}
+                50%{top: 87%; left: 86%;}
+                75%{top: 87%; left: 0;}
+                100%{top: 0; left: 0;}
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="div1"></div>
+    </body>
+</html>
